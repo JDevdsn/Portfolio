@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan Speller</title>
+    <!-- REMIXICON -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+<header class="header">
+    <nav class="navbar container">
+        <a href="./index.html" class="navbar__logo"> 
+            <img src="./assets/images/JS.png" alt="" class="navbar__logo-image">
+        </a>
+        <div class="navbar__menu">
+            <ul class="navbar__list">
+                <li class="navbar__list-item">
+                    <a href="#home" class="navbar__list-link">Home</a>
+                </li>
+                <li class="navbar__list-item">
+                    <a href="#portfolio" class="navbar__list-link">Portfolio</a>
+                </li>
+                <li class="navbar__list-item">
+                    <a href="#services" class="navbar__list-link">Services</a>
+                </li>
+                <li class="navbar__list-item">
+                    <a href="#aboutme" class="navbar__list-link">About </a>
+                </li>
+                <li class="navbar__list-item">
+                    <a href="#blog" class="navbar__list-link">Blog</a>
+                </li>
+            </ul>
+        </div>
+<div class="navbar__btn-group">
+    <a href="mailto:jspeller@alphaworks.tech" class="btn btn--text btn--transparent">Contact me</a>
+    <button type="button" class="btn btn--action" id="menu-toggler">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+            <path fill="none" d="M0 0h24v24H0z"/>
+            <path d="M16 18v2H5v-2h11zm5-7v2H3v-2h18zm-2-7v2H8V4h11z" fill="rgba(255,255,255,1)"/>
+        </svg>
+     </button>
+</div>
+</nav>
+</header>
+
+
+<!--! ===Main-->
+<main>
+    <!--! === SHOWCASE === -->
+    <section class="showcase" id="home">
+        <div class="showcase__container container">
+            <h1 class="showcase__title title tittle--main">@helloJworlddd</h1>
+            <picture class="showcase__image">
+                <source media="(min-width: 768px)" srcset="/assets/images/bigyd.png">
+                <img src="./assets/images/bigyd.png" alt="">
+            </picture>
+
+        </div>
+    </section>
+    <!--! === PORTFOLIO === -->
+<section class="portfolio" id="portfolio">
+    <div class="porfolio__container container">
+        <div class="portfolio__meta section-metadata">
+            <h2 class="title">My Works</h2>
+        </div>
+        <div class="swiper myswiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./assets/images/niece.JPG" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./assets/images/zoe-love.JPG" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./assets/images/5.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./assets/images/ucla.JPEG" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./assets/images/IMG_3374.JPG" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./assets/images/IMG_3364.JPG" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./assets/images/sade.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./assets/images/Trumpet.JPG" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./assets/images/IMG_8321.JPG" alt="">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+    <!--! === SERVICES === -->
+<section class="services" id="services">
+    <div class="services__container container">
+        <div class="services__metadata section-metadata">
+            <h2 class="title">Services</h2>
+            <p class="section-metadata__description">
+                I am available for several Multimedia Productions. 
+                From Web Design, Graphic Design, Videography- Photography, 
+                & Music Production. 
+               </p>
+        </div>
+        <div class="services__image-wrapper">
+            <img src="./assets/images/jordan.JPG" alt="">
+        </div>
+        <div class="services__list">
+            <div class="services__list-divider">
+                <article class="services__list-item">
+                    <i class="ri-camera-line services__list-icon"></i>
+                    <h3 class="services__list-title title">Photography</h3>
+                    <p class="services__list-description"> Adobe Photoshop cs6, Canon 7D markII, Sony A7II, 
+                        The mission is to remove limitations on creativity by offering customized photography 
+                        sessions based on the customer's vision.  </p>
+                </article>
+                <article class="services__list-item">
+                    <i class="ri-vidicon-2-line services__list-icon"></i>
+                    <h3 class="services__list-title title">Videography</h3>
+                    <p class="services__list-description"> FinalCutProX, I specialize in promo for Buisness, 
+                        Grad Sudents,  Musicians, Athletes/Fitness, Chefs, Barbers, Newly Weds, & More. 
+                        </p>
+                </article>
+            </div>
+            <article class="services__list-item">
+                <i class="ri-flight-takeoff-line services__list-icon"></i>
+                <h3 class="services__list-title title">Aerial View</h3>
+                <p class="services__list-description">4k Maverick Pro Mini, Drone shots just hit different. 
+                    I actively have Aerial view expirience in Real-Estate Marketting & Advertising.</p>
+            </article>
+        </div>
+    </div>
+</section>
+    <!--! === ABOUT === -->
+<section class="about" id="aboutme">
+<div class="about__container container">
+    <div class="about__information">
+        <h2 class="about__information-title title">About Jordan</h2>
+        <p class="about__information-description">Currently a WordPress Apprentice at Bitwise Industries.  </p>
+            <p class="about__information-description">Im A Creative Iterative Designer. On the path of a Digital architect. 
+                Whats done today will decide tomorrow. I love to create & face new challenges because how we handle it and go it threw those difficulties we find growth, 
+                so remember to embrace tribulation with all cheerfulness and be inclusive advocate for equality, 
+                Innovation, & Independence. Building innovative solutions + Diverse Platforms especially for undermined communities. 
+            </p>
+            <a href="https://jdevdsn.github.io/TwitterBlog/" class="btn btn--text btn-green">Learn more</a>
+    </div>
+    <div class="about__images">
+        <img src="./assets/images/web2.jpg" alt="" class="about__images-image about__images-image--top">
+        <img src="./assets/images/web3.jpeg" alt="" class="about__images-image about__images-image--bottom">
+    </div>
+</div>
+</section>
+    <!--! === BLOG === -->
+    <section class="blog" id="blog">
+        <div class="blog__container container">
+            <div class="blog__metadata section-metadata">
+                <h2 class="title">YouTube Channel</h2>
+                <p class="blog__metadata-description section-metadata__description">
+                   Soon I'll have a link up linking to my youtube channel where you can see my quick tips & tutorials.
+                   
+                </p>
+                    <a href="https://jdevdsn.github.io/TwitterBlog/" class="btn btn--text btn--transparent">Twitter Feed.</a>
+            </div>
+            <article class="blog__post post--left">
+                <picture class="blog__post-image">
+                    <source media="(min-width: 450px)" srcset="./assets/images/blog_post_1.jpg">  
+                    <img src="./assets/images/blog_post_1.jpg" alt="">           
+                </picture>
+                <h3 class="blog__post-title title">Dr.Sebi Tribute</h3>
+                <a href="#" class="btn btn--text btn--transparent">Herbal healing</a>
+            </article>
+            <article class="blog__post post--right">
+                <picture class="blog__post-image">
+                    <source media="(min-width: 450px)" srcset="./assets/images/pixar.jpg">  
+                    <img src="./assets/images/pixar.JPG" alt="">           
+                </picture>
+                <h3 class="blog__post-title title">Pixar Tribute</h3>
+                <a href="#" class="btn btn--text btn--transparent">Art by: Pixar</a>
+            </article>
+            <article class="blog__post post--left">
+                <picture class="blog__post-image">
+                    <source media="(min-width: 450px)" srcset="./assets/images/ocean.jpg">  
+                    <img src="./assets/images/ocean.jpg" alt="">           
+                </picture>
+                <h3 class="blog__post-title title">Ocean Waves Theme</h3>
+                <a href="#" class="btn btn--text btn--transparent">Artist Producer Theme</a>
+            </article>
+            <article class="blog__post post--left">
+                <picture class="blog__post-image">
+                    <source media="(min-width: 450px)" srcset="./assets/images/travel.jpg">  
+                    <img src="./assets/images/travel.jpg" alt="">           
+                </picture>
+                <h3 class="blog__post-title title">Travel Theme</h3>
+                <a href="#" class="btn btn--text btn--transparent">Japan Camp</a>
+            </article>
+            <article class="blog__post post--left">
+                <picture class="blog__post-image">
+                    <source media="(min-width: 450px)" srcset="./assets/images/dentist.jpg">  
+                    <img src="./assets/images/dentist.jpg" alt="">           
+                </picture>
+                <h3 class="blog__post-title title">Denist information</h3>
+                <a href="#" class="btn btn--text btn--transparent">Dentistry 101</a>
+            </article>
+            <article class="blog__post post--left">
+                <picture class="blog__post-image">
+                    <source media="(min-width: 450px)" srcset="./assets/images/david.jpg">  
+                    <img src="./assets/images/david.jpg" alt="">           
+                </picture>
+                <h3 class="blog__post-title title">Clothing Shop</h3>
+                <a href="#" class="btn btn--text btn--transparent">Store Theme</a>
+            </article>
+           
+
+        </div>
+    </section>
+</main>
+    <!--! === FOOTER === -->
+<footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__group">
+            <h2 class="footer__title title tittle--main">Looking for a proffesional?</h2>
+            <a href="mailto:somone@domain.com" class="btn btn--text btn--transparent">Read more</a>
+        </div>
+        <span class="footer__seperator"></span>
+        <div class="footer__group">
+            <a href="./index.html" class="footer__logo"> 
+                <img src="./assets/images/JS.png" alt="">
+            </a>
+            <p class="footer__description">"Lets Empower undermined communities, Build more diversed and inclusive Ecosystems for the light of the future youths. </p>
+                <ul class="footer__list">
+                           <li class="footer__list-item">
+                             <a href="https://www.linkedin.com/in/jordan-l-speller-041749146/" class="footer__list-link">
+                                <i class="ri-linkedin-line"></i>
+                                </a>
+
+                            <li class="footer__list-item">
+                             <a href="https://www.instagram.com/hellojworlddd/?hl=en" class="footer__list-link">
+                                    <i class="ri-instagram-line"></i>
+                                </a>
+
+                            <li class="footer__list-item">
+                             <a href="https://github.com/JDevdsn" class="footer__list-link">
+                                        <i class="ri-github-line"></i>
+                                </a>
+                            </li>
+                         </ul>
+                         <span class="footer__copyright">&copy; Jordan Speller 2022. All rights reserved.</span>
+    </div>
+</footer>
+    <!-- SWIPERJS -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
